@@ -1,0 +1,112 @@
+
+
+
+body { 
+	background-color: gray;
+	padding: 0px 30px;
+	margin: 0px
+}
+
+header {
+	background-color: lightgray;
+	margin-top: 0px;
+}
+
+h1 {
+	padding: 10px;
+	margin: 0px;
+}
+
+/* initial link color */
+a {
+	color: #0276FD;
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: red;
+}
+
+/* mouse over link */
+a:hover {
+    color: purple;
+}
+
+/* selected link */
+a:active {
+    color: green;
+}
+
+
+.options ul {
+	background-color: #c18585;
+	width: 100%;
+	float: left;
+	list-style: none;
+	padding: 5px 0px 5px 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+
+.options li {
+	display: inline;
+	padding: 3px;
+	padding-left: 2%;
+	padding-bottom: 3px;
+	text-align: left;
+}
+
+#columns {
+
+}
+
+.left_column {
+	display: inline-block;
+	background-color: #99cc99;
+	width: 63%;
+	padding: 1%;
+	float: left;
+	min-height: 792px;
+}
+
+.right_column {
+	display: inline-block;
+	background-color: #8481c0;
+	width: 33%;
+	padding: 1%;
+	float: left;
+	min-height: 792px;
+}
+
+p {
+	padding-right: 15px;
+}
+
+/*************************
+	RESPONSIVE CSS
+**************************/
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+	.left_column {
+		width: 100%;
+		padding: 0%;
+	}
+
+	.right_column {
+		width: 100%;
+	}
+}
+
+
+
+
+
